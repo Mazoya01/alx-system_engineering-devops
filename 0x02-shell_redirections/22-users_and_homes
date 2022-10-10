@@ -1,2 +1,2 @@
 #!/bin/bash
-vi 100-empty_casks
+cut -d':' -f1,6 /etc/passwd
